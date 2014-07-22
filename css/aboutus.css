@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (min-width: 768px) {
+	.wrap>.container> .aboutus-con >.row>.col-sm-6 {
+		padding-left:5px;
+		padding-right:5px;
+		}
+	}

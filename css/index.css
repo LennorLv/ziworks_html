@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (min-width: 768px) {
+	.col-sm-5 {
+		padding-left:5px;
+		padding-right:5px;
+		}
+	}
