@@ -28,7 +28,7 @@ window.onload = function() {
 			}
 			//页面宽度大于768时banner的布局
 	else {
-		document.getElementById("banner").style.height = hh-50+"px";
+		document.getElementById("banner").style.height = hh+"px";
 		mm = hh-50
 		document.getElementById("banner-text").style.paddingTop = mm/2+"px";
 		}

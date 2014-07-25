@@ -14,12 +14,8 @@ body {
 	}
 
 .ban-img {
-	position:fixed;
-	top:0;
-	left:0;
-	right:100;
-	bottom:500;
 	z-index:-1;
+	border-top:#00bd8a solid 2px;
 	}
 	
 /*.navbar-toggle .icon-bar {
@@ -32,20 +28,14 @@ body {
   margin-top: 8px;
 }*/
 
-.green-line {
+/*.green-line {
 	border:#00bd8a solid 1px;
-	}
+	}*/
+	
 .logo {
 	background-image: url(../img/logo_n.png);
 	background-repeat: no-repeat;
 	display: block;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 206px;
-	height: 65px;
-	}
-a:hover > .logo{
-	background-image: url(../img/logo_p.png);
 	}
 
 .navbar {
@@ -179,77 +169,92 @@ a:hover > .logo{
 	
 	
 @media (min-width: 768px) {
-	.nav-container {
-		padding-top:50px;
-		}
-	.navbar-inverse {
+.logo {
+	width: 250px;
+	height: 85px;
+	background-size: auto 65px;
+	background-position: 0% center;
+	}
+a:hover > .logo{
+	background-image: url(../img/logo_p.png);
+	}
+.nav-container {
+	padding-top:50px;
+	}
+.navbar-inverse {
 	background-color:transparent;
 	border:hidden;
 	}
-	.navbar-fixed-top {
-		position:relative !important;
-		}
-	.footer-left {
-		margin-right:-20px;
-		}
-	.footer-right {
-		margin-left:-20px;
-		}
-	.point-row {
-		padding-left:10px;
-		padding-right:10px;
-		}
-	
-	.aboutus-con {
-		padding-left:5px;
-		padding-right:5px;
-		}
-	.nav-ul {
-			font-size: 24px;
-			font-family: fzltcxhjt;
-		}
-	.navbar-nav>li>a {
-		line-height: 55px;  
-		}
+.navbar-fixed-top {
+	position:relative !important;
+	}
+.footer-left {
+	margin-right:-20px;
+	}
+.footer-right {
+	margin-left:-20px;
+	}
+.point-row {
+	padding-left:10px;
+	padding-right:10px;
+	}
+
+.aboutus-con {
+	padding-left:5px;
+	padding-right:5px;
+	}
+.nav-ul {
+		font-size: 24px;
+		font-family: fzltcxhjt;
+	}
+.navbar-nav>li>a {
+	line-height: 55px;  
+	}
+.ban-img {
+	position:fixed;
+	top:0;
+	left:0;
+	}
 			
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 	
-	.logo {
-		background-image: url(../img/logo_n_sm.png);
-		background-repeat: no-repeat;
-		display: block;
-		margin-top: 5px;
-		margin-left:15px;
-		margin-bottom: 5px;
-		width: 128px;
-		height: 40px;
-		}
-	a:hover > .logo{
-		background-image: url(../img/logo_n_sm.png);
-		}
-	.container > h1 {
-		color: #d0d0d0;
-		text-align: center;
-		font-family: fzltcxhjt;
-		font-size: 24px;
-		}
-	#banner {
-		margin-top:50px;
-		}
-	.ban-img {
-		margin-top:50px;
-		}
+.logo {
+	margin-left:15px;
+	width: 160px;
+	height: 50px;
+	background-size: auto 40px;
+	background-position: 0% center;
+	}
+a:hover > .logo{
+	background-image: url(../img/logo_n_sm.png);
+	}
+.container > h1 {
+	color: #d0d0d0;
+	text-align: center;
+	font-family: fzltcxhjt;
+	font-size: 24px;
+	}
+#banner {
+	margin-top:50px;
+	}
+/*.ban-img {
+	margin-top:50px;
+	}*/
+.ban-img {
+	position:absolute;
+	top:50px;
+	}
 
 }
 
 @media (min-width: 992px) {
-	.footer-right > .row > .col-sm-6 > div {
-		float:right;
-		margin-right:15px;
-		}
+.footer-right > .row > .col-sm-6 > div {
+	float:right;
+	margin-right:15px;
 	}
+}
 
 
 
